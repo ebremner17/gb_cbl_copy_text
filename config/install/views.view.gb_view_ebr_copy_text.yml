@@ -6,7 +6,7 @@ dependencies:
   module:
     - block_content
     - entity_browser
-id: gb_ebr_copy_text
+id: gb_view_ebr_copy_text
 label: 'Copy text'
 module: views
 description: ''
@@ -258,13 +258,14 @@ display:
         - 'languages:language_interface'
         - url.query_args
       tags: {  }
-  entity_browser_1:
+  gb_view_ebr_copy_text:
     display_plugin: entity_browser
-    id: entity_browser_1
+    id: gb_view_ebr_copy_text
     display_title: 'Entity browser'
     position: 1
     display_options:
       display_extenders: {  }
+      display_description: ''
     cache_metadata:
       max-age: -1
       contexts:

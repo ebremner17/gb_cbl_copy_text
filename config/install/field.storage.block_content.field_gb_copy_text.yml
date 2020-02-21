@@ -2,11 +2,11 @@ langcode: en
 status: true
 dependencies:
   module:
-    - node
+    - block_content
     - text
-id: node.field_gb_copy_text
+id: block_content.field_gb_copy_text
 field_name: field_gb_copy_text
-entity_type: node
+entity_type: block_content
 type: text_long
 settings: {  }
 module: text

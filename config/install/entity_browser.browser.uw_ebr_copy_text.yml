@@ -2,11 +2,11 @@ langcode: en
 status: true
 dependencies:
   config:
-    - views.view.gb_ebr_copy_text
+    - views.view.gb_view_ebr_copy_text
   module:
     - entity_browser_entity_form
     - views
-name: gb_eb_copy_text
+name: uw_ebr_copy_text
 label: 'Copy text'
 display: modal
 display_configuration:
@@ -19,23 +19,23 @@ selection_display_configuration: {  }
 widget_selector: tabs
 widget_selector_configuration: {  }
 widgets:
-  c07eac09-862d-4c0b-9a26-96e2d6839e99:
+  d0048d56-5509-4027-8542-4083394052a3:
     settings:
       entity_type: block_content
       bundle: gb_cbl_copy_text
       form_mode: default
       submit_text: 'Save copy text'
-    uuid: c07eac09-862d-4c0b-9a26-96e2d6839e99
+    uuid: d0048d56-5509-4027-8542-4083394052a3
     weight: 1
     label: 'Create new'
     id: entity_form
-  0e31d9b7-e7cd-4a51-8fb7-69c90c447718:
+  ae0bf1bb-3efc-4fa1-a187-515a325ebd5a:
     settings:
-      view: gb_ebr_copy_text
-      view_display: entity_browser_1
+      view: gb_view_ebr_copy_text
+      view_display: gb_view_ebr_copy_text
       submit_text: 'Select copy text'
       auto_select: false
-    uuid: 0e31d9b7-e7cd-4a51-8fb7-69c90c447718
-    weight: 2
+    uuid: ae0bf1bb-3efc-4fa1-a187-515a325ebd5a
+    weight: 3
     label: 'Choose existing'
     id: view
