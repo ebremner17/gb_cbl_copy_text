@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: gb_cbl_copy_text
+label: 'Copy text'
+revision: 0
+description: ''

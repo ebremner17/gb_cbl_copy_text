@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.gb_cbl_copy_text
+    - field.field.block_content.gb_cbl_copy_text.field_gb_copy_text
+  module:
+    - text
+id: block_content.gb_cbl_copy_text.default
+targetEntityType: block_content
+bundle: gb_cbl_copy_text
+mode: default
+content:
+  field_gb_copy_text:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }
