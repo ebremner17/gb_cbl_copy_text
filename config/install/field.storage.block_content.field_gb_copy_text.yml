@@ -4,7 +4,7 @@ dependencies:
   module:
     - node
     - text
-id: node.field_gb_cbl_copy_text
+id: node.field_gb_copy_text
 field_name: field_gb_copy_text
 entity_type: node
 type: text_long
